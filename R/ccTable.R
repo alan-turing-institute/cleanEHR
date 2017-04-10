@@ -218,7 +218,7 @@ ccTable$methods(
         if (nrow(.self$torigin) != 0 ) {
             .self$filter.ranges()
             .self$filter.category()
-            .self$filter.missingess()
+            .self$filter.missingness()
             .self$filter.nodata()
             .self$apply.filters()
         }
